@@ -21,48 +21,42 @@ local Check_2 = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
 local UICorner_4 = Instance.new("UICorner")
 local UIPadding_2 = Instance.new("UIPadding")
-local Ocpacity = Instance.new("TextButton")
-local CheckFrame_3 = Instance.new("Frame")
-local Check_3 = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
-local UICorner_6 = Instance.new("UICorner")
-local UIPadding_3 = Instance.new("UIPadding")
 local SoonLabel = Instance.new("TextLabel")
 local Main = Instance.new("Frame")
 local MainListLayout = Instance.new("UIListLayout")
 local WalkSpeed = Instance.new("TextBox")
 local SetSpeed = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local Info1 = Instance.new("TextLabel")
-local UIPadding_4 = Instance.new("UIPadding")
+local UIPadding_3 = Instance.new("UIPadding")
 local JumpPower = Instance.new("TextBox")
 local SetPower = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local Info2 = Instance.new("TextLabel")
-local UIPadding_5 = Instance.new("UIPadding")
+local UIPadding_4 = Instance.new("UIPadding")
 local ESPToggle = Instance.new("TextButton")
-local CheckFrame_4 = Instance.new("Frame")
-local Check_4 = Instance.new("Frame")
-local UICorner_9 = Instance.new("UICorner")
-local UICorner_10 = Instance.new("UICorner")
-local UIPadding_6 = Instance.new("UIPadding")
+local CheckFrame_3 = Instance.new("Frame")
+local Check_3 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local UIPadding_5 = Instance.new("UIPadding")
 local Info3 = Instance.new("TextLabel")
 local InfoUIPadding = Instance.new("UIPadding")
 local Tab2 = Instance.new("Frame")
 local TabScroll = Instance.new("ScrollingFrame")
 local CMDX = Instance.new("TextButton")
-local UIPadding_7 = Instance.new("UIPadding")
+local UIPadding_6 = Instance.new("UIPadding")
 local DarkDexV3 = Instance.new("TextButton")
-local UIPadding_8 = Instance.new("UIPadding")
+local UIPadding_7 = Instance.new("UIPadding")
 local InfiniteYield = Instance.new("TextButton")
-local UIPadding_9 = Instance.new("UIPadding")
+local UIPadding_8 = Instance.new("UIPadding")
 local DarkDexV4 = Instance.new("TextButton")
-local UIPadding_10 = Instance.new("UIPadding")
+local UIPadding_9 = Instance.new("UIPadding")
 local Tab2ListLayout = Instance.new("UIListLayout")
 local PhantomForces = Instance.new("TextButton")
-local UIPadding_11 = Instance.new("UIPadding")
+local UIPadding_10 = Instance.new("UIPadding")
 local BreakInStory = Instance.new("TextButton")
-local UIPadding_12 = Instance.new("UIPadding")
+local UIPadding_11 = Instance.new("UIPadding")
 local Tabs = Instance.new("Frame")
 local TabsUIListLayout = Instance.new("UIListLayout")
 local TabsUIPadding = Instance.new("UIPadding")
@@ -209,39 +203,6 @@ UICorner_4.Parent = CheckFrame_2
 UIPadding_2.Parent = FastAnimationsToggle_2
 UIPadding_2.PaddingLeft = UDim.new(0, 5)
 
-Ocpacity.Name = "Ocpacity"
-Ocpacity.Parent = Settings
-Ocpacity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Ocpacity.BackgroundTransparency = 1.000
-Ocpacity.Size = UDim2.new(0, 376, 0, 50)
-Ocpacity.Font = Enum.Font.Roboto
-Ocpacity.Text = "Light Ocpacity"
-Ocpacity.TextColor3 = Color3.fromRGB(255, 255, 255)
-Ocpacity.TextScaled = true
-Ocpacity.TextSize = 14.000
-Ocpacity.TextWrapped = true
-Ocpacity.TextXAlignment = Enum.TextXAlignment.Left
-
-CheckFrame_3.Name = "CheckFrame"
-CheckFrame_3.Parent = Ocpacity
-CheckFrame_3.AnchorPoint = Vector2.new(1, 0)
-CheckFrame_3.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
-CheckFrame_3.Position = UDim2.new(1.0006752, 0, -0.0199999996, 0)
-CheckFrame_3.Size = UDim2.new(0, 51, 0, 51)
-
-Check_3.Name = "Check"
-Check_3.Parent = CheckFrame_3
-Check_3.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
-Check_3.Position = UDim2.new(0.145454541, 0, 0.163636357, 0)
-Check_3.Size = UDim2.new(0.681818187, 0, 0.681818187, 0)
-
-UICorner_5.Parent = Check_3
-
-UICorner_6.Parent = CheckFrame_3
-
-UIPadding_3.Parent = Ocpacity
-UIPadding_3.PaddingLeft = UDim.new(0, 5)
-
 SoonLabel.Name = "SoonLabel"
 SoonLabel.Parent = Settings
 SoonLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -292,7 +253,7 @@ SetSpeed.TextScaled = true
 SetSpeed.TextSize = 14.000
 SetSpeed.TextWrapped = true
 
-UICorner_7.Parent = SetSpeed
+UICorner_5.Parent = SetSpeed
 
 Info1.Name = "Info1"
 Info1.Parent = Main
@@ -306,8 +267,8 @@ Info1.TextColor3 = Color3.fromRGB(199, 199, 199)
 Info1.TextSize = 13.000
 Info1.TextXAlignment = Enum.TextXAlignment.Left
 
-UIPadding_4.Parent = Info1
-UIPadding_4.PaddingLeft = UDim.new(0, 5)
+UIPadding_3.Parent = Info1
+UIPadding_3.PaddingLeft = UDim.new(0, 5)
 
 JumpPower.Name = "JumpPower"
 JumpPower.Parent = Main
@@ -335,7 +296,7 @@ SetPower.TextColor3 = Color3.fromRGB(206, 206, 206)
 SetPower.TextSize = 14.000
 SetPower.TextWrapped = true
 
-UICorner_8.Parent = SetPower
+UICorner_6.Parent = SetPower
 
 Info2.Name = "Info2"
 Info2.Parent = Main
@@ -349,8 +310,8 @@ Info2.TextColor3 = Color3.fromRGB(199, 199, 199)
 Info2.TextSize = 13.000
 Info2.TextXAlignment = Enum.TextXAlignment.Left
 
-UIPadding_5.Parent = Info2
-UIPadding_5.PaddingLeft = UDim.new(0, 5)
+UIPadding_4.Parent = Info2
+UIPadding_4.PaddingLeft = UDim.new(0, 5)
 
 ESPToggle.Name = "ESPToggle"
 ESPToggle.Parent = Main
@@ -363,25 +324,25 @@ ESPToggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 ESPToggle.TextSize = 40.000
 ESPToggle.TextWrapped = true
 
-CheckFrame_4.Name = "CheckFrame"
-CheckFrame_4.Parent = ESPToggle
-CheckFrame_4.AnchorPoint = Vector2.new(1, 0)
-CheckFrame_4.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
-CheckFrame_4.Position = UDim2.new(1.0006752, 0, -0.0199999996, 0)
-CheckFrame_4.Size = UDim2.new(0, 51, 0, 51)
+CheckFrame_3.Name = "CheckFrame"
+CheckFrame_3.Parent = ESPToggle
+CheckFrame_3.AnchorPoint = Vector2.new(1, 0)
+CheckFrame_3.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+CheckFrame_3.Position = UDim2.new(1.0006752, 0, -0.0199999996, 0)
+CheckFrame_3.Size = UDim2.new(0, 51, 0, 51)
 
-Check_4.Name = "Check"
-Check_4.Parent = CheckFrame_4
-Check_4.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
-Check_4.Position = UDim2.new(0.145454541, 0, 0.163636357, 0)
-Check_4.Size = UDim2.new(0.681818187, 0, 0.681818187, 0)
+Check_3.Name = "Check"
+Check_3.Parent = CheckFrame_3
+Check_3.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Check_3.Position = UDim2.new(0.145454541, 0, 0.163636357, 0)
+Check_3.Size = UDim2.new(0.681818187, 0, 0.681818187, 0)
 
-UICorner_9.Parent = Check_4
+UICorner_7.Parent = Check_3
 
-UICorner_10.Parent = CheckFrame_4
+UICorner_8.Parent = CheckFrame_3
 
-UIPadding_6.Parent = ESPToggle
-UIPadding_6.PaddingLeft = UDim.new(0, 5)
+UIPadding_5.Parent = ESPToggle
+UIPadding_5.PaddingLeft = UDim.new(0, 5)
 
 Info3.Name = "Info3"
 Info3.Parent = Main
@@ -426,8 +387,8 @@ CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
 CMDX.TextSize = 40.000
 CMDX.TextWrapped = true
 
-UIPadding_7.Parent = CMDX
-UIPadding_7.PaddingLeft = UDim.new(0, 5)
+UIPadding_6.Parent = CMDX
+UIPadding_6.PaddingLeft = UDim.new(0, 5)
 
 DarkDexV3.Name = "DarkDexV3"
 DarkDexV3.Parent = TabScroll
@@ -441,8 +402,8 @@ DarkDexV3.TextScaled = true
 DarkDexV3.TextSize = 40.000
 DarkDexV3.TextWrapped = true
 
-UIPadding_8.Parent = DarkDexV3
-UIPadding_8.PaddingLeft = UDim.new(0, 5)
+UIPadding_7.Parent = DarkDexV3
+UIPadding_7.PaddingLeft = UDim.new(0, 5)
 
 InfiniteYield.Name = "InfiniteYield"
 InfiniteYield.Parent = TabScroll
@@ -455,8 +416,8 @@ InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
 InfiniteYield.TextSize = 40.000
 InfiniteYield.TextWrapped = true
 
-UIPadding_9.Parent = InfiniteYield
-UIPadding_9.PaddingLeft = UDim.new(0, 5)
+UIPadding_8.Parent = InfiniteYield
+UIPadding_8.PaddingLeft = UDim.new(0, 5)
 
 DarkDexV4.Name = "DarkDexV4"
 DarkDexV4.Parent = TabScroll
@@ -469,8 +430,8 @@ DarkDexV4.TextColor3 = Color3.fromRGB(255, 255, 255)
 DarkDexV4.TextSize = 40.000
 DarkDexV4.TextWrapped = true
 
-UIPadding_10.Parent = DarkDexV4
-UIPadding_10.PaddingLeft = UDim.new(0, 5)
+UIPadding_9.Parent = DarkDexV4
+UIPadding_9.PaddingLeft = UDim.new(0, 5)
 
 Tab2ListLayout.Name = "Tab2ListLayout"
 Tab2ListLayout.Parent = TabScroll
@@ -488,8 +449,8 @@ PhantomForces.TextColor3 = Color3.fromRGB(255, 255, 255)
 PhantomForces.TextSize = 25.000
 PhantomForces.TextWrapped = true
 
-UIPadding_11.Parent = PhantomForces
-UIPadding_11.PaddingLeft = UDim.new(0, 5)
+UIPadding_10.Parent = PhantomForces
+UIPadding_10.PaddingLeft = UDim.new(0, 5)
 
 BreakInStory.Name = "BreakInStory"
 BreakInStory.Parent = TabScroll
@@ -502,8 +463,8 @@ BreakInStory.TextColor3 = Color3.fromRGB(255, 255, 255)
 BreakInStory.TextSize = 27.000
 BreakInStory.TextWrapped = true
 
-UIPadding_12.Parent = BreakInStory
-UIPadding_12.PaddingLeft = UDim.new(0, 5)
+UIPadding_11.Parent = BreakInStory
+UIPadding_11.PaddingLeft = UDim.new(0, 5)
 
 Tabs.Name = "Tabs"
 Tabs.Parent = UIFrame
@@ -678,7 +639,7 @@ MOUSETRANS.BorderSizePixel = 0
 
 -- Scripts:
 
-local function AXFA_fake_script() -- FastAnimationsToggle.Aniations Toggle 
+local function FWLJWIK_fake_script() -- FastAnimationsToggle.Aniations Toggle 
 	local script = Instance.new('LocalScript', FastAnimationsToggle)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -691,8 +652,8 @@ local function AXFA_fake_script() -- FastAnimationsToggle.Aniations Toggle
 		end
 	end)
 end
-coroutine.wrap(AXFA_fake_script)()
-local function TSAACM_fake_script() -- FastAnimationsToggle_2.Aniations Toggle 
+coroutine.wrap(FWLJWIK_fake_script)()
+local function PXWX_fake_script() -- FastAnimationsToggle_2.Aniations Toggle 
 	local script = Instance.new('LocalScript', FastAnimationsToggle_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -705,40 +666,24 @@ local function TSAACM_fake_script() -- FastAnimationsToggle_2.Aniations Toggle
 		end
 	end)
 end
-coroutine.wrap(TSAACM_fake_script)()
-local function GLJNX_fake_script() -- Ocpacity.Aniations Toggle 
-	local script = Instance.new('LocalScript', Ocpacity)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.CheckFrame.Check.BackgroundColor3 == Color3.fromRGB(170, 0, 0) then
-			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
-			script.Parent.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0.25
-			script.Parent.Parent.Parent.Parent.Parent.UIFrame.Parent.Parent.MainFrame.BackgroundTransparency = 0.25
-		else
-			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
-			script.Parent.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0		script.Parent.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0.25
-			script.Parent.Parent.Parent.Parent.Parent.UIFrame.Parent.Parent.MainFrame.BackgroundTransparency = 0
-		end
-	end)
-end
-coroutine.wrap(GLJNX_fake_script)()
-local function SADL_fake_script() -- SetSpeed.LocalScript 
+coroutine.wrap(PXWX_fake_script)()
+local function YRPSKU_fake_script() -- SetSpeed.LocalScript 
 	local script = Instance.new('LocalScript', SetSpeed)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = (script.Parent.Parent.Text)
 	end)
 end
-coroutine.wrap(SADL_fake_script)()
-local function YAVO_fake_script() -- SetPower.LocalScript 
+coroutine.wrap(YRPSKU_fake_script)()
+local function YSTRYK_fake_script() -- SetPower.LocalScript 
 	local script = Instance.new('LocalScript', SetPower)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = (script.Parent.Parent.Text)
 	end)
 end
-coroutine.wrap(YAVO_fake_script)()
-local function LDCPNPY_fake_script() -- ESPToggle.ESPToggle 
+coroutine.wrap(YSTRYK_fake_script)()
+local function MQFM_fake_script() -- ESPToggle.ESPToggle 
 	local script = Instance.new('LocalScript', ESPToggle)
 
 	local ESPEnabled = false
@@ -779,40 +724,40 @@ local function LDCPNPY_fake_script() -- ESPToggle.ESPToggle
 		ToggleESP()
 	end)
 end
-coroutine.wrap(LDCPNPY_fake_script)()
-local function SBEOZ_fake_script() -- CMDX.CMD-X 
+coroutine.wrap(MQFM_fake_script)()
+local function QTKU_fake_script() -- CMDX.CMD-X 
 	local script = Instance.new('LocalScript', CMDX)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(SBEOZ_fake_script)()
-local function KIMD_fake_script() -- DarkDexV3.DarkDexV3 
+coroutine.wrap(QTKU_fake_script)()
+local function PREW_fake_script() -- DarkDexV3.DarkDexV3 
 	local script = Instance.new('LocalScript', DarkDexV3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(KIMD_fake_script)()
-local function RZNQZ_fake_script() -- InfiniteYield.InfiniteYield 
+coroutine.wrap(PREW_fake_script)()
+local function CMERA_fake_script() -- InfiniteYield.InfiniteYield 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 	end)
 end
-coroutine.wrap(RZNQZ_fake_script)()
-local function NNPAG_fake_script() -- DarkDexV4.DarkDexV4 
+coroutine.wrap(CMERA_fake_script)()
+local function GHYRJHD_fake_script() -- DarkDexV4.DarkDexV4 
 	local script = Instance.new('LocalScript', DarkDexV4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/RobloxDevTools/58d1b7f4943e775aa372ae720ca636e5/raw/ee88e5d2c12d41d52f35c927de91e4f35b35b6f5/DarkDexV4"))()
 	end)
 end
-coroutine.wrap(NNPAG_fake_script)()
-local function VRWTRZ_fake_script() -- PhantomForces.PhantomForces 
+coroutine.wrap(GHYRJHD_fake_script)()
+local function WMEOQ_fake_script() -- PhantomForces.PhantomForces 
 	local script = Instance.new('LocalScript', PhantomForces)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -821,16 +766,16 @@ local function VRWTRZ_fake_script() -- PhantomForces.PhantomForces
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Spoorloos/scripts/main/silent_aim_no_actor_bypass.lua"))()
 	end)
 end
-coroutine.wrap(VRWTRZ_fake_script)()
-local function VNHAWK_fake_script() -- BreakInStory.BreakInStory 
+coroutine.wrap(WMEOQ_fake_script)()
+local function YRQC_fake_script() -- BreakInStory.BreakInStory 
 	local script = Instance.new('LocalScript', BreakInStory)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/JCWALTth'))()
 	end)
 end
-coroutine.wrap(VNHAWK_fake_script)()
-local function TGOZWU_fake_script() -- Main_2.Tab1FrameWork 
+coroutine.wrap(YRQC_fake_script)()
+local function MIUYRE_fake_script() -- Main_2.Tab1FrameWork 
 	local script = Instance.new('LocalScript', Main_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -881,8 +826,8 @@ local function TGOZWU_fake_script() -- Main_2.Tab1FrameWork
 		end
 	end)
 end
-coroutine.wrap(TGOZWU_fake_script)()
-local function WBCOOGZ_fake_script() -- Other.Tab1FrameWork 
+coroutine.wrap(MIUYRE_fake_script)()
+local function BCSIY_fake_script() -- Other.Tab1FrameWork 
 	local script = Instance.new('LocalScript', Other)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -933,8 +878,8 @@ local function WBCOOGZ_fake_script() -- Other.Tab1FrameWork
 		end
 	end)
 end
-coroutine.wrap(WBCOOGZ_fake_script)()
-local function LJNI_fake_script() -- Settings_2.SettingsScript 
+coroutine.wrap(BCSIY_fake_script)()
+local function XVBYVIP_fake_script() -- Settings_2.SettingsScript 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -985,8 +930,8 @@ local function LJNI_fake_script() -- Settings_2.SettingsScript
 		end
 	end)
 end
-coroutine.wrap(LJNI_fake_script)()
-local function DIHVF_fake_script() -- Exit.CloseScript 
+coroutine.wrap(XVBYVIP_fake_script)()
+local function UIQYM_fake_script() -- Exit.CloseScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1005,8 +950,8 @@ local function DIHVF_fake_script() -- Exit.CloseScript
 		end
 	end)
 end
-coroutine.wrap(DIHVF_fake_script)()
-local function WKXY_fake_script() -- Minimize.MinimizeScript 
+coroutine.wrap(UIQYM_fake_script)()
+local function BIVTXJ_fake_script() -- Minimize.MinimizeScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1054,8 +999,8 @@ local function WKXY_fake_script() -- Minimize.MinimizeScript
 		end
 	end)
 end
-coroutine.wrap(WKXY_fake_script)()
-local function MDMYVH_fake_script() -- MainFrame.SetUpManager 
+coroutine.wrap(BIVTXJ_fake_script)()
+local function LRMEC_fake_script() -- MainFrame.SetUpManager 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	script.Parent.UIFrame.TabFrames.Main.Position = UDim2.new(0,0,0,0)
@@ -1071,8 +1016,8 @@ local function MDMYVH_fake_script() -- MainFrame.SetUpManager
 	script.Parent.Parent.Parent.DragFrame.Size = UDim2.new(0,546,0,83)
 	script.Parent["FASTANIMATIONS?"].BorderSizePixel = 1
 end
-coroutine.wrap(MDMYVH_fake_script)()
-local function XQTBE_fake_script() -- Settings_3.SettingsScript 
+coroutine.wrap(LRMEC_fake_script)()
+local function LJDTCI_fake_script() -- Settings_3.SettingsScript 
 	local script = Instance.new('LocalScript', Settings_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1123,8 +1068,8 @@ local function XQTBE_fake_script() -- Settings_3.SettingsScript
 		end
 	end)
 end
-coroutine.wrap(XQTBE_fake_script)()
-local function KMVGG_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(LJDTCI_fake_script)()
+local function VIBNDU_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local TweenService = game:GetService("TweenService")
@@ -1160,8 +1105,8 @@ local function KMVGG_fake_script() -- MainFrame.LocalScript
 	script.Parent.MouseEnter:Connect(onEnter)
 	script.Parent.MouseLeave:Connect(onLeave)
 end
-coroutine.wrap(KMVGG_fake_script)()
-local function CDOL_fake_script() -- DragFrame.DragScript 
+coroutine.wrap(VIBNDU_fake_script)()
+local function XGAIR_fake_script() -- DragFrame.DragScript 
 	local script = Instance.new('LocalScript', DragFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1197,4 +1142,4 @@ local function CDOL_fake_script() -- DragFrame.DragScript
 		end
 	end)
 end
-coroutine.wrap(CDOL_fake_script)()
+coroutine.wrap(XGAIR_fake_script)()
