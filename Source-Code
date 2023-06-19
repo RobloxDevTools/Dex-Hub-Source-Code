@@ -1,0 +1,1145 @@
+-- Instances:
+
+local DexHub = Instance.new("ScreenGui")
+local DragFrame = Instance.new("Frame")
+local MainFrame = Instance.new("Frame")
+local UIFrame = Instance.new("Frame")
+local UIFrameUICorner = Instance.new("UICorner")
+local TopBarLine = Instance.new("Frame")
+local TabFrames = Instance.new("Frame")
+local Settings = Instance.new("Frame")
+local SettingsListLayout = Instance.new("UIListLayout")
+local FastAnimationsToggle = Instance.new("TextButton")
+local CheckFrame = Instance.new("Frame")
+local Check = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local UIPadding = Instance.new("UIPadding")
+local FastAnimationsToggle_2 = Instance.new("TextButton")
+local CheckFrame_2 = Instance.new("Frame")
+local Check_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local UIPadding_2 = Instance.new("UIPadding")
+local SoonLabel = Instance.new("TextLabel")
+local Main = Instance.new("Frame")
+local MainListLayout = Instance.new("UIListLayout")
+local WalkSpeed = Instance.new("TextBox")
+local SetSpeed = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Info1 = Instance.new("TextLabel")
+local UIPadding_3 = Instance.new("UIPadding")
+local JumpPower = Instance.new("TextBox")
+local SetPower = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Info2 = Instance.new("TextLabel")
+local UIPadding_4 = Instance.new("UIPadding")
+local ESPToggle = Instance.new("TextButton")
+local CheckFrame_3 = Instance.new("Frame")
+local Check_3 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local UIPadding_5 = Instance.new("UIPadding")
+local Info3 = Instance.new("TextLabel")
+local InfoUIPadding = Instance.new("UIPadding")
+local Tab2 = Instance.new("Frame")
+local TabScroll = Instance.new("ScrollingFrame")
+local CMDX = Instance.new("TextButton")
+local UIPadding_6 = Instance.new("UIPadding")
+local DarkDexV3 = Instance.new("TextButton")
+local UIPadding_7 = Instance.new("UIPadding")
+local InfiniteYield = Instance.new("TextButton")
+local UIPadding_8 = Instance.new("UIPadding")
+local DarkDexV4 = Instance.new("TextButton")
+local UIPadding_9 = Instance.new("UIPadding")
+local Tab2ListLayout = Instance.new("UIListLayout")
+local PhantomForces = Instance.new("TextButton")
+local UIPadding_10 = Instance.new("UIPadding")
+local BreakInStory = Instance.new("TextButton")
+local UIPadding_11 = Instance.new("UIPadding")
+local Tabs = Instance.new("Frame")
+local TabsUIListLayout = Instance.new("UIListLayout")
+local TabsUIPadding = Instance.new("UIPadding")
+local Main_2 = Instance.new("TextButton")
+local MainTabUIPadding = Instance.new("UIPadding")
+local Other = Instance.new("TextButton")
+local MainTabUIPadding_2 = Instance.new("UIPadding")
+local Settings_2 = Instance.new("TextButton")
+local MainTabUIPadding_3 = Instance.new("UIPadding")
+local MainFrameUICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local TitleUIPadding = Instance.new("UIPadding")
+local Exit = Instance.new("TextButton")
+local Minimize = Instance.new("TextButton")
+local DropShadow = Instance.new("ImageLabel")
+local FASTANIMATIONS = Instance.new("Frame")
+local Settings_3 = Instance.new("ImageButton")
+local PAGE = Instance.new("Frame")
+local GETVARIABLE = Instance.new("Frame")
+local MOUSETRANS = Instance.new("Frame")
+
+--Properties:
+
+DexHub.Name = "Dex Hub"
+DexHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+DragFrame.Name = "DragFrame"
+DragFrame.Parent = DexHub
+DragFrame.AnchorPoint = Vector2.new(1, 1)
+DragFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DragFrame.BackgroundTransparency = 1.000
+DragFrame.Position = UDim2.new(0.800000012, 0, 0.25, 100)
+DragFrame.Size = UDim2.new(0, 546, 0, 83)
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = DragFrame
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.125)
+MainFrame.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+MainFrame.BackgroundTransparency = 0.250
+MainFrame.Position = UDim2.new(0.5, 0, 0.5, 5)
+MainFrame.Size = UDim2.new(1, 0, 0, 400)
+
+UIFrame.Name = "UIFrame"
+UIFrame.Parent = MainFrame
+UIFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UIFrame.BackgroundTransparency = 1.000
+UIFrame.ClipsDescendants = true
+UIFrame.Size = UDim2.new(1, 0, 1, 0)
+
+UIFrameUICorner.CornerRadius = UDim.new(0, 5)
+UIFrameUICorner.Name = "UIFrameUICorner"
+UIFrameUICorner.Parent = UIFrame
+
+TopBarLine.Name = "TopBarLine"
+TopBarLine.Parent = UIFrame
+TopBarLine.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopBarLine.Position = UDim2.new(0, -25, 0, 90)
+TopBarLine.Size = UDim2.new(0, 593, 0, 2)
+
+TabFrames.Name = "TabFrames"
+TabFrames.Parent = UIFrame
+TabFrames.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabFrames.BackgroundTransparency = 1.000
+TabFrames.BorderSizePixel = 0
+TabFrames.ClipsDescendants = true
+TabFrames.Position = UDim2.new(0, 160, 0, 100)
+TabFrames.Size = UDim2.new(0, 380, 0, 300)
+
+Settings.Name = "Settings"
+Settings.Parent = TabFrames
+Settings.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Settings.BackgroundTransparency = 1.000
+Settings.BorderSizePixel = 0
+Settings.Size = UDim2.new(0, 375, 0, 300)
+
+SettingsListLayout.Name = "SettingsListLayout"
+SettingsListLayout.Parent = Settings
+SettingsListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+SettingsListLayout.Padding = UDim.new(0, 5)
+
+FastAnimationsToggle.Name = "FastAnimationsToggle"
+FastAnimationsToggle.Parent = Settings
+FastAnimationsToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FastAnimationsToggle.BackgroundTransparency = 1.000
+FastAnimationsToggle.Size = UDim2.new(0, 376, 0, 50)
+FastAnimationsToggle.Font = Enum.Font.Roboto
+FastAnimationsToggle.Text = "Fast Animations"
+FastAnimationsToggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+FastAnimationsToggle.TextScaled = true
+FastAnimationsToggle.TextSize = 14.000
+FastAnimationsToggle.TextWrapped = true
+FastAnimationsToggle.TextXAlignment = Enum.TextXAlignment.Left
+
+CheckFrame.Name = "CheckFrame"
+CheckFrame.Parent = FastAnimationsToggle
+CheckFrame.AnchorPoint = Vector2.new(1, 0)
+CheckFrame.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+CheckFrame.Position = UDim2.new(1.0006752, 0, -0.0199999996, 0)
+CheckFrame.Size = UDim2.new(0, 51, 0, 51)
+
+Check.Name = "Check"
+Check.Parent = CheckFrame
+Check.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Check.Position = UDim2.new(0.145454541, 0, 0.163636357, 0)
+Check.Size = UDim2.new(0.681818187, 0, 0.681818187, 0)
+
+UICorner.Parent = Check
+
+UICorner_2.Parent = CheckFrame
+
+UIPadding.Parent = FastAnimationsToggle
+UIPadding.PaddingLeft = UDim.new(0, 5)
+
+FastAnimationsToggle_2.Name = "FastAnimationsToggle"
+FastAnimationsToggle_2.Parent = Settings
+FastAnimationsToggle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FastAnimationsToggle_2.BackgroundTransparency = 1.000
+FastAnimationsToggle_2.Size = UDim2.new(0, 376, 0, 50)
+FastAnimationsToggle_2.Font = Enum.Font.Roboto
+FastAnimationsToggle_2.Text = "Enter/Exit Fade"
+FastAnimationsToggle_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FastAnimationsToggle_2.TextScaled = true
+FastAnimationsToggle_2.TextSize = 14.000
+FastAnimationsToggle_2.TextWrapped = true
+FastAnimationsToggle_2.TextXAlignment = Enum.TextXAlignment.Left
+
+CheckFrame_2.Name = "CheckFrame"
+CheckFrame_2.Parent = FastAnimationsToggle_2
+CheckFrame_2.AnchorPoint = Vector2.new(1, 0)
+CheckFrame_2.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+CheckFrame_2.Position = UDim2.new(1.0006752, 0, -0.0199999996, 0)
+CheckFrame_2.Size = UDim2.new(0, 51, 0, 51)
+
+Check_2.Name = "Check"
+Check_2.Parent = CheckFrame_2
+Check_2.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Check_2.Position = UDim2.new(0.145454541, 0, 0.163636357, 0)
+Check_2.Size = UDim2.new(0.681818187, 0, 0.681818187, 0)
+
+UICorner_3.Parent = Check_2
+
+UICorner_4.Parent = CheckFrame_2
+
+UIPadding_2.Parent = FastAnimationsToggle_2
+UIPadding_2.PaddingLeft = UDim.new(0, 5)
+
+SoonLabel.Name = "SoonLabel"
+SoonLabel.Parent = Settings
+SoonLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SoonLabel.BackgroundTransparency = 1.000
+SoonLabel.Position = UDim2.new(0, 0, 0.183333337, 0)
+SoonLabel.Size = UDim2.new(0, 373, 0, 50)
+SoonLabel.Font = Enum.Font.SourceSans
+SoonLabel.Text = "More Coming Soon"
+SoonLabel.TextColor3 = Color3.fromRGB(180, 180, 180)
+SoonLabel.TextSize = 20.000
+
+Main.Name = "Main"
+Main.Parent = TabFrames
+Main.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Main.BackgroundTransparency = 1.000
+Main.Size = UDim2.new(0, 375, 0, 300)
+Main.Visible = false
+
+MainListLayout.Name = "MainListLayout"
+MainListLayout.Parent = Main
+MainListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = Main
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+WalkSpeed.BorderSizePixel = 0
+WalkSpeed.Position = UDim2.new(0, 0, -0.0266666673, 0)
+WalkSpeed.Size = UDim2.new(0, 375, 0, 50)
+WalkSpeed.Font = Enum.Font.Nunito
+WalkSpeed.MultiLine = true
+WalkSpeed.PlaceholderColor3 = Color3.fromRGB(204, 204, 204)
+WalkSpeed.PlaceholderText = "WalkSpeed"
+WalkSpeed.Text = ""
+WalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed.TextScaled = true
+WalkSpeed.TextSize = 14.000
+WalkSpeed.TextWrapped = true
+
+SetSpeed.Name = "SetSpeed"
+SetSpeed.Parent = WalkSpeed
+SetSpeed.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+SetSpeed.Position = UDim2.new(0.362666667, 0, 1.13999999, 0)
+SetSpeed.Size = UDim2.new(0, 103, 0, 25)
+SetSpeed.Font = Enum.Font.Ubuntu
+SetSpeed.Text = "Set WalkSpeed"
+SetSpeed.TextColor3 = Color3.fromRGB(206, 206, 206)
+SetSpeed.TextScaled = true
+SetSpeed.TextSize = 14.000
+SetSpeed.TextWrapped = true
+
+UICorner_5.Parent = SetSpeed
+
+Info1.Name = "Info1"
+Info1.Parent = Main
+Info1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info1.BackgroundTransparency = 1.000
+Info1.Position = UDim2.new(0.0293333326, 0, 0.043333333, 0)
+Info1.Size = UDim2.new(0, 200, 0, 50)
+Info1.Font = Enum.Font.SourceSans
+Info1.Text = "Changes Your WalkSpeed"
+Info1.TextColor3 = Color3.fromRGB(199, 199, 199)
+Info1.TextSize = 13.000
+Info1.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_3.Parent = Info1
+UIPadding_3.PaddingLeft = UDim.new(0, 5)
+
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = Main
+JumpPower.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+JumpPower.BorderSizePixel = 0
+JumpPower.Size = UDim2.new(0, 375, 0, 50)
+JumpPower.Font = Enum.Font.Nunito
+JumpPower.MultiLine = true
+JumpPower.PlaceholderColor3 = Color3.fromRGB(204, 204, 204)
+JumpPower.PlaceholderText = "JumpPower"
+JumpPower.Text = ""
+JumpPower.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower.TextScaled = true
+JumpPower.TextSize = 14.000
+JumpPower.TextWrapped = true
+
+SetPower.Name = "SetPower"
+SetPower.Parent = JumpPower
+SetPower.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+SetPower.Position = UDim2.new(0.362666667, 0, 1.13999999, 0)
+SetPower.Size = UDim2.new(0, 103, 0, 25)
+SetPower.Font = Enum.Font.Ubuntu
+SetPower.Text = "Set JumpPower"
+SetPower.TextColor3 = Color3.fromRGB(206, 206, 206)
+SetPower.TextSize = 14.000
+SetPower.TextWrapped = true
+
+UICorner_6.Parent = SetPower
+
+Info2.Name = "Info2"
+Info2.Parent = Main
+Info2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info2.BackgroundTransparency = 1.000
+Info2.Position = UDim2.new(0.0293333326, 0, 0.043333333, 0)
+Info2.Size = UDim2.new(0, 200, 0, 50)
+Info2.Font = Enum.Font.SourceSans
+Info2.Text = "Changes Your JumpPower"
+Info2.TextColor3 = Color3.fromRGB(199, 199, 199)
+Info2.TextSize = 13.000
+Info2.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_4.Parent = Info2
+UIPadding_4.PaddingLeft = UDim.new(0, 5)
+
+ESPToggle.Name = "ESPToggle"
+ESPToggle.Parent = Main
+ESPToggle.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+ESPToggle.BorderSizePixel = 0
+ESPToggle.Size = UDim2.new(0, 376, 0, 50)
+ESPToggle.Font = Enum.Font.Roboto
+ESPToggle.Text = "ESP"
+ESPToggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESPToggle.TextSize = 40.000
+ESPToggle.TextWrapped = true
+
+CheckFrame_3.Name = "CheckFrame"
+CheckFrame_3.Parent = ESPToggle
+CheckFrame_3.AnchorPoint = Vector2.new(1, 0)
+CheckFrame_3.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+CheckFrame_3.Position = UDim2.new(1.0006752, 0, -0.0199999996, 0)
+CheckFrame_3.Size = UDim2.new(0, 51, 0, 51)
+
+Check_3.Name = "Check"
+Check_3.Parent = CheckFrame_3
+Check_3.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Check_3.Position = UDim2.new(0.145454541, 0, 0.163636357, 0)
+Check_3.Size = UDim2.new(0.681818187, 0, 0.681818187, 0)
+
+UICorner_7.Parent = Check_3
+
+UICorner_8.Parent = CheckFrame_3
+
+UIPadding_5.Parent = ESPToggle
+UIPadding_5.PaddingLeft = UDim.new(0, 5)
+
+Info3.Name = "Info3"
+Info3.Parent = Main
+Info3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info3.BackgroundTransparency = 1.000
+Info3.Position = UDim2.new(0.0293333326, 0, -0.0500000007, 0)
+Info3.Size = UDim2.new(0, 200, 0, 50)
+Info3.Font = Enum.Font.SourceSans
+Info3.Text = "Allows You To See Players Through Walls"
+Info3.TextColor3 = Color3.fromRGB(199, 199, 199)
+Info3.TextSize = 13.000
+Info3.TextXAlignment = Enum.TextXAlignment.Left
+Info3.TextYAlignment = Enum.TextYAlignment.Top
+
+InfoUIPadding.Name = "InfoUIPadding"
+InfoUIPadding.Parent = Info3
+InfoUIPadding.PaddingLeft = UDim.new(0, 5)
+InfoUIPadding.PaddingTop = UDim.new(0, 7)
+
+Tab2.Name = "Tab2"
+Tab2.Parent = TabFrames
+Tab2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Tab2.BackgroundTransparency = 1.000
+Tab2.Size = UDim2.new(0, 375, 0, 300)
+Tab2.Visible = false
+
+TabScroll.Name = "TabScroll"
+TabScroll.Parent = Tab2
+TabScroll.Active = true
+TabScroll.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TabScroll.Size = UDim2.new(1, 0, 1, 0)
+TabScroll.CanvasPosition = Vector2.new(0, 150)
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = TabScroll
+CMDX.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+CMDX.BorderSizePixel = 0
+CMDX.Size = UDim2.new(0, 360, 0, 50)
+CMDX.Font = Enum.Font.Roboto
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.TextSize = 40.000
+CMDX.TextWrapped = true
+
+UIPadding_6.Parent = CMDX
+UIPadding_6.PaddingLeft = UDim.new(0, 5)
+
+DarkDexV3.Name = "DarkDexV3"
+DarkDexV3.Parent = TabScroll
+DarkDexV3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+DarkDexV3.BorderSizePixel = 0
+DarkDexV3.Size = UDim2.new(0, 360, 0, 50)
+DarkDexV3.Font = Enum.Font.Roboto
+DarkDexV3.Text = "Dark Dex V3 | Bypasser"
+DarkDexV3.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkDexV3.TextScaled = true
+DarkDexV3.TextSize = 40.000
+DarkDexV3.TextWrapped = true
+
+UIPadding_7.Parent = DarkDexV3
+UIPadding_7.PaddingLeft = UDim.new(0, 5)
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = TabScroll
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Size = UDim2.new(0, 360, 0, 50)
+InfiniteYield.Font = Enum.Font.Roboto
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextSize = 40.000
+InfiniteYield.TextWrapped = true
+
+UIPadding_8.Parent = InfiniteYield
+UIPadding_8.PaddingLeft = UDim.new(0, 5)
+
+DarkDexV4.Name = "DarkDexV4"
+DarkDexV4.Parent = TabScroll
+DarkDexV4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+DarkDexV4.BorderSizePixel = 0
+DarkDexV4.Size = UDim2.new(0, 360, 0, 50)
+DarkDexV4.Font = Enum.Font.Roboto
+DarkDexV4.Text = "Dark Dex V4"
+DarkDexV4.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkDexV4.TextSize = 40.000
+DarkDexV4.TextWrapped = true
+
+UIPadding_9.Parent = DarkDexV4
+UIPadding_9.PaddingLeft = UDim.new(0, 5)
+
+Tab2ListLayout.Name = "Tab2ListLayout"
+Tab2ListLayout.Parent = TabScroll
+Tab2ListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+Tab2ListLayout.Padding = UDim.new(0, 4)
+
+PhantomForces.Name = "PhantomForces"
+PhantomForces.Parent = TabScroll
+PhantomForces.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+PhantomForces.BorderSizePixel = 0
+PhantomForces.Size = UDim2.new(0, 360, 0, 50)
+PhantomForces.Font = Enum.Font.Roboto
+PhantomForces.Text = "[GAME] Phantom Forces | Silent Aim"
+PhantomForces.TextColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.TextSize = 25.000
+PhantomForces.TextWrapped = true
+
+UIPadding_10.Parent = PhantomForces
+UIPadding_10.PaddingLeft = UDim.new(0, 5)
+
+BreakInStory.Name = "BreakInStory"
+BreakInStory.Parent = TabScroll
+BreakInStory.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+BreakInStory.BorderSizePixel = 0
+BreakInStory.Size = UDim2.new(0, 360, 0, 50)
+BreakInStory.Font = Enum.Font.Roboto
+BreakInStory.Text = "[GAME] Break In Story | Get Items"
+BreakInStory.TextColor3 = Color3.fromRGB(255, 255, 255)
+BreakInStory.TextSize = 27.000
+BreakInStory.TextWrapped = true
+
+UIPadding_11.Parent = BreakInStory
+UIPadding_11.PaddingLeft = UDim.new(0, 5)
+
+Tabs.Name = "Tabs"
+Tabs.Parent = UIFrame
+Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tabs.BackgroundTransparency = 1.000
+Tabs.Position = UDim2.new(0, 0, 0, 90)
+Tabs.Size = UDim2.new(0, 162, 0, 308)
+
+TabsUIListLayout.Name = "TabsUIListLayout"
+TabsUIListLayout.Parent = Tabs
+TabsUIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+TabsUIListLayout.Padding = UDim.new(0, 5)
+
+TabsUIPadding.Name = "TabsUIPadding"
+TabsUIPadding.Parent = Tabs
+TabsUIPadding.PaddingTop = UDim.new(0, 20)
+
+Main_2.Name = "Main"
+Main_2.Parent = Tabs
+Main_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main_2.BackgroundTransparency = 1.000
+Main_2.BorderSizePixel = 0
+Main_2.Position = UDim2.new(0, 0, 0.0324675329, 0)
+Main_2.Size = UDim2.new(1, 0, -0.0798611045, 50)
+Main_2.Font = Enum.Font.SourceSans
+Main_2.Text = "Main"
+Main_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Main_2.TextSize = 25.000
+Main_2.TextWrapped = true
+Main_2.TextXAlignment = Enum.TextXAlignment.Left
+
+MainTabUIPadding.Name = "MainTabUIPadding"
+MainTabUIPadding.Parent = Main_2
+MainTabUIPadding.PaddingBottom = UDim.new(0, 10)
+MainTabUIPadding.PaddingLeft = UDim.new(0, 10)
+MainTabUIPadding.PaddingTop = UDim.new(0, 10)
+
+Other.Name = "Other"
+Other.Parent = Tabs
+Other.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Other.BackgroundTransparency = 1.000
+Other.BorderSizePixel = 0
+Other.Position = UDim2.new(0, 0, 0.0324675329, 0)
+Other.Size = UDim2.new(1, 0, -0.0798611045, 50)
+Other.Font = Enum.Font.SourceSans
+Other.Text = "Other"
+Other.TextColor3 = Color3.fromRGB(255, 255, 255)
+Other.TextSize = 25.000
+Other.TextWrapped = true
+Other.TextXAlignment = Enum.TextXAlignment.Left
+
+MainTabUIPadding_2.Name = "MainTabUIPadding"
+MainTabUIPadding_2.Parent = Other
+MainTabUIPadding_2.PaddingBottom = UDim.new(0, 10)
+MainTabUIPadding_2.PaddingLeft = UDim.new(0, 10)
+MainTabUIPadding_2.PaddingTop = UDim.new(0, 10)
+
+Settings_2.Name = "Settings"
+Settings_2.Parent = Tabs
+Settings_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings_2.BackgroundTransparency = 1.000
+Settings_2.BorderSizePixel = 0
+Settings_2.Position = UDim2.new(0, 0, 0.0324675329, 0)
+Settings_2.Size = UDim2.new(1, 0, -0.0798611045, 50)
+Settings_2.Font = Enum.Font.SourceSans
+Settings_2.Text = "Settings"
+Settings_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings_2.TextSize = 25.000
+Settings_2.TextWrapped = true
+Settings_2.TextXAlignment = Enum.TextXAlignment.Left
+
+MainTabUIPadding_3.Name = "MainTabUIPadding"
+MainTabUIPadding_3.Parent = Settings_2
+MainTabUIPadding_3.PaddingBottom = UDim.new(0, 10)
+MainTabUIPadding_3.PaddingLeft = UDim.new(0, 10)
+MainTabUIPadding_3.PaddingTop = UDim.new(0, 10)
+
+MainFrameUICorner.CornerRadius = UDim.new(0, 5)
+MainFrameUICorner.Name = "MainFrameUICorner"
+MainFrameUICorner.Parent = MainFrame
+
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(2.81527477e-08, 0, 0, 0)
+Title.Size = UDim2.new(0, 335, 0, 78)
+Title.Font = Enum.Font.Ubuntu
+Title.Text = "Dex Hub"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 35.000
+Title.TextStrokeTransparency = 0.000
+Title.TextXAlignment = Enum.TextXAlignment.Left
+
+TitleUIPadding.Name = "TitleUIPadding"
+TitleUIPadding.Parent = Title
+TitleUIPadding.PaddingLeft = UDim.new(0, 10)
+
+Exit.Name = "Exit"
+Exit.Parent = MainFrame
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BackgroundTransparency = 1.000
+Exit.Position = UDim2.new(0.861623585, 0, 0.00751879998, 0)
+Exit.Size = UDim2.new(0, 75, 0, 75)
+Exit.Font = Enum.Font.Nunito
+Exit.Text = "X"
+Exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+
+Minimize.Name = "Minimize"
+Minimize.Parent = MainFrame
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BackgroundTransparency = 1.000
+Minimize.Position = UDim2.new(0.72324717, 0, 0.00751879998, 0)
+Minimize.Size = UDim2.new(0, 75, 0, 75)
+Minimize.Font = Enum.Font.DenkOne
+Minimize.Text = "—"
+Minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.TextSize = 50.000
+Minimize.TextWrapped = true
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = MainFrame
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.498527348, 0, 0.499595463, 0)
+DropShadow.Size = UDim2.new(1.03364158, 47, 1.03476906, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6014261993"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+FASTANIMATIONS.Name = "FASTANIMATIONS?"
+FASTANIMATIONS.Parent = MainFrame
+FASTANIMATIONS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FASTANIMATIONS.BackgroundTransparency = 1.000
+FASTANIMATIONS.BorderSizePixel = 0
+FASTANIMATIONS.ZIndex = 0
+
+Settings_3.Name = "Settings"
+Settings_3.Parent = MainFrame
+Settings_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings_3.BackgroundTransparency = 1.000
+Settings_3.Position = UDim2.new(0, 350, 0, 20)
+Settings_3.Size = UDim2.new(0, 48, 0, 48)
+Settings_3.Image = "http://www.roblox.com/asset/?id=13794261711"
+Settings_3.ScaleType = Enum.ScaleType.Tile
+
+PAGE.Name = "PAGE?"
+PAGE.Parent = MainFrame
+PAGE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PAGE.BackgroundTransparency = 1.000
+PAGE.BorderSizePixel = 0
+PAGE.ZIndex = 0
+
+GETVARIABLE.Name = "GETVARIABLE?"
+GETVARIABLE.Parent = MainFrame
+GETVARIABLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GETVARIABLE.BackgroundTransparency = 1.000
+GETVARIABLE.BorderSizePixel = 0
+GETVARIABLE.ZIndex = 0
+
+MOUSETRANS.Name = "MOUSETRANS?"
+MOUSETRANS.Parent = MainFrame
+MOUSETRANS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MOUSETRANS.BorderSizePixel = 0
+
+-- Scripts:
+
+local function YRFVO_fake_script() -- FastAnimationsToggle.Aniations Toggle 
+	local script = Instance.new('LocalScript', FastAnimationsToggle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.CheckFrame.Check.BackgroundColor3 == Color3.fromRGB(170, 0, 0) then
+			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+			script.Parent.Parent.Parent.Parent.Parent["FASTANIMATIONS?"].BorderSizePixel = 0
+		else
+			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+			script.Parent.Parent.Parent.Parent.Parent["FASTANIMATIONS?"].BorderSizePixel = 1
+		end
+	end)
+end
+coroutine.wrap(YRFVO_fake_script)()
+local function KXDFV_fake_script() -- FastAnimationsToggle_2.Aniations Toggle 
+	local script = Instance.new('LocalScript', FastAnimationsToggle_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.CheckFrame.Check.BackgroundColor3 == Color3.fromRGB(170, 0, 0) then
+			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+			script.Parent.Parent.Parent.Parent.Parent["MOUSETRANS?"].BorderSizePixel = 1
+		else
+			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+			script.Parent.Parent.Parent.Parent.Parent["MOUSETRANS?"].BorderSizePixel = 0
+		end
+	end)
+end
+coroutine.wrap(KXDFV_fake_script)()
+local function PRFB_fake_script() -- SetSpeed.LocalScript 
+	local script = Instance.new('LocalScript', SetSpeed)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = (script.Parent.Parent.Text)
+	end)
+end
+coroutine.wrap(PRFB_fake_script)()
+local function RTFEV_fake_script() -- SetPower.LocalScript 
+	local script = Instance.new('LocalScript', SetPower)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = (script.Parent.Parent.Text)
+	end)
+end
+coroutine.wrap(RTFEV_fake_script)()
+local function YCOHQIP_fake_script() -- ESPToggle.ESPToggle 
+	local script = Instance.new('LocalScript', ESPToggle)
+
+	local ESPEnabled = false
+	script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(170,0,0)
+	
+	
+	function ToggleESP()
+		ESPEnabled = not ESPEnabled
+		if ESPEnabled then
+			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(0,170,0)
+		else
+			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(170,0,0)
+		end
+		for _, player in pairs(game.Players:GetPlayers()) do
+			if player ~= game.Players.LocalPlayer then
+				if ESPEnabled then -- Add ESP
+					local Box = Instance.new("BoxHandleAdornment")
+					Box.ZIndex = 5
+					Box.Name = "ESP"
+					Box.Size = Vector3.new(4.5, 7, 4.5)
+					Box.AlwaysOnTop = true
+					Box.Color3 = Color3.fromRGB(255, 0, 0)
+					Box.Adornee = player.Character.HumanoidRootPart
+					Box.Transparency = 0.5
+					Box.Visible = true
+					Box.Parent = player.Character.HumanoidRootPart
+				else -- Remove ESP
+					local ESP = player.Character.HumanoidRootPart:FindFirstChild("ESP")
+					if ESP then
+						ESP:Destroy()
+					end
+				end
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		ToggleESP()
+	end)
+end
+coroutine.wrap(YCOHQIP_fake_script)()
+local function XGYOGF_fake_script() -- CMDX.CMD-X 
+	local script = Instance.new('LocalScript', CMDX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+end
+coroutine.wrap(XGYOGF_fake_script)()
+local function TIEGX_fake_script() -- DarkDexV3.DarkDexV3 
+	local script = Instance.new('LocalScript', DarkDexV3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(TIEGX_fake_script)()
+local function IYTB_fake_script() -- InfiniteYield.InfiniteYield 
+	local script = Instance.new('LocalScript', InfiniteYield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+	end)
+end
+coroutine.wrap(IYTB_fake_script)()
+local function YQNRC_fake_script() -- DarkDexV4.DarkDexV4 
+	local script = Instance.new('LocalScript', DarkDexV4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/RobloxDevTools/58d1b7f4943e775aa372ae720ca636e5/raw/ee88e5d2c12d41d52f35c927de91e4f35b35b6f5/DarkDexV4"))()
+	end)
+end
+coroutine.wrap(YQNRC_fake_script)()
+local function BUYWVV_fake_script() -- PhantomForces.PhantomForces 
+	local script = Instance.new('LocalScript', PhantomForces)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		FOV = 180
+		HIT_PART = "Head"
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Spoorloos/scripts/main/silent_aim_no_actor_bypass.lua"))()
+	end)
+end
+coroutine.wrap(BUYWVV_fake_script)()
+local function FOGSND_fake_script() -- BreakInStory.BreakInStory 
+	local script = Instance.new('LocalScript', BreakInStory)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/JCWALTth'))()
+	end)
+end
+coroutine.wrap(FOGSND_fake_script)()
+local function JSAVPFD_fake_script() -- Main_2.Tab1FrameWork 
+	local script = Instance.new('LocalScript', Main_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Parent["FASTANIMATIONS?"].BorderSizePixel == 1 then
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Settings:TweenPosition(
+				UDim2.new(2,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Main:TweenPosition(
+				UDim2.new(0,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2:TweenPosition(
+				UDim2.new(1,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+		else
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Settings:TweenPosition(
+				UDim2.new(2,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Main:TweenPosition(
+				UDim2.new(0,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2:TweenPosition(
+				UDim2.new(1,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+		end
+	end)
+end
+coroutine.wrap(JSAVPFD_fake_script)()
+local function GRGGXIV_fake_script() -- Other.Tab1FrameWork 
+	local script = Instance.new('LocalScript', Other)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Parent["FASTANIMATIONS?"].BorderSizePixel == 1 then
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Settings:TweenPosition(
+				UDim2.new(1,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Main:TweenPosition(
+				UDim2.new(-1,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2:TweenPosition(
+				UDim2.new(0,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+		else
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Settings:TweenPosition(
+				UDim2.new(1,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Main:TweenPosition(
+				UDim2.new(-1,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2:TweenPosition(
+				UDim2.new(0,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+		end
+	end)
+end
+coroutine.wrap(GRGGXIV_fake_script)()
+local function JPWHQO_fake_script() -- Settings_2.SettingsScript 
+	local script = Instance.new('LocalScript', Settings_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Parent["FASTANIMATIONS?"].BorderSizePixel == 1 then
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Settings:TweenPosition(
+				UDim2.new(0,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Main:TweenPosition(
+				UDim2.new(-2,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2:TweenPosition(
+				UDim2.new(-1,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+		else
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Settings:TweenPosition(
+				UDim2.new(0,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Main:TweenPosition(
+				UDim2.new(-2,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+			script.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2:TweenPosition(
+				UDim2.new(-1,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+		end
+	end)
+end
+coroutine.wrap(JPWHQO_fake_script)()
+local function TCDK_fake_script() -- Exit.CloseScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if not (script.Parent.Parent["FASTANIMATIONS?"].BorderSizePixel == 1) then
+			script.Parent.Parent.Parent.Parent.Parent["Dex Hub"]:Destroy()
+		else
+			script.Parent.Parent.Parent.Parent.DragFrame:TweenPosition(
+				UDim2.new(0.8,0,2,100),
+				"In",
+				"Back",
+				1,
+				false
+			)
+			wait(1)
+			script.Parent.Parent.Parent.Parent.Parent["Dex Hub"]:Destroy()
+		end
+	end)
+end
+coroutine.wrap(TCDK_fake_script)()
+local function HEWIU_fake_script() -- Minimize.MinimizeScript 
+	local script = Instance.new('LocalScript', Minimize)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.MainFrame.Size == UDim2.new(0,545,0,400)  then
+			if script.Parent.Parent["FASTANIMATIONS?"].BorderSizePixel == 1 then
+				script.Parent.Text = "+"
+				script.Parent.Parent.Parent.MainFrame:TweenSize(
+					UDim2.new(0,545,0,81),
+					"Out",
+					"Back",
+					0.5,
+					true
+				)
+			else
+				script.Parent.Text = "+"
+				script.Parent.Parent.Parent.MainFrame:TweenSize(
+					UDim2.new(0,545,0,81),
+					"Out",
+					"Back",
+					0,
+					true
+				)
+			end
+			
+		else
+			if script.Parent.Parent["FASTANIMATIONS?"].BorderSizePixel == 1 then
+				script.Parent.Text = "—"
+				script.Parent.Parent.Parent.MainFrame:TweenSize(
+					UDim2.new(0,545,0,400),
+					"Out",
+					"Back",
+					0.5,
+					true
+				)
+			else
+				script.Parent.Text = "—"
+				script.Parent.Parent.Parent.MainFrame:TweenSize(
+					UDim2.new(0,545,0,400),
+					"Out",
+					"Back",
+					0,
+					true
+				)
+			end
+		end
+	end)
+end
+coroutine.wrap(HEWIU_fake_script)()
+local function WHPHM_fake_script() -- MainFrame.SetUpManager 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	script.Parent.UIFrame.TabFrames.Main.Position = UDim2.new(0,0,0,0)
+	script.Parent.UIFrame.TabFrames.Main.Size = UDim2.new(1,0,1,0)
+	script.Parent.UIFrame.TabFrames.Tab2.Position = UDim2.new(1,0,0,0)
+	script.Parent.UIFrame.TabFrames.Tab2.Size = UDim2.new(1,0,1,0)
+	script.Parent.UIFrame.TabFrames.Settings.Position = UDim2.new(3,0,0,0)
+	script.Parent.UIFrame.TabFrames.Settings.Size = UDim2.new(1,0,1,0)
+	script.Parent.UIFrame.TabFrames.Settings.Visible = true
+	script.Parent.UIFrame.TabFrames.Main.Visible = true
+	script.Parent.UIFrame.TabFrames.Tab2.Visible = true
+	script.Parent.Parent.Parent.DragFrame.Position = UDim2.new(0.8,0,0.25,100)
+	script.Parent.Parent.Parent.DragFrame.Size = UDim2.new(0,546,0,83)
+	script.Parent["FASTANIMATIONS?"].BorderSizePixel = 1
+end
+coroutine.wrap(WHPHM_fake_script)()
+local function EOUN_fake_script() -- Settings_3.SettingsScript 
+	local script = Instance.new('LocalScript', Settings_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent["FASTANIMATIONS?"].BorderSizePixel == 1 then
+			script.Parent.Parent.UIFrame.TabFrames.Settings:TweenPosition(
+				UDim2.new(0,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+			script.Parent.Parent.UIFrame.TabFrames.Main:TweenPosition(
+				UDim2.new(-2,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+			script.Parent.Parent.UIFrame.TabFrames.Tab2:TweenPosition(
+				UDim2.new(-1,0,0,0),
+				"Out",
+				"Back",
+				"1",
+				true
+			)
+		else
+			script.Parent.Parent.UIFrame.TabFrames.Settings:TweenPosition(
+				UDim2.new(0,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+			script.Parent.Parent.UIFrame.TabFrames.Main:TweenPosition(
+				UDim2.new(-2,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+			script.Parent.Parent.UIFrame.TabFrames.Tab2:TweenPosition(
+				UDim2.new(-1,0,0,0),
+				"Out",
+				"Back",
+				"0",
+				true
+			)
+		end
+	end)
+end
+coroutine.wrap(EOUN_fake_script)()
+local function IIZPUM_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local TweenService = game:GetService("TweenService")
+	local TweenInfo = TweenInfo.new(0.2)
+	function onEnter()
+		if script.Parent["MOUSETRANS?"].BorderSizePixel == 1 then
+			local startValue = script.Parent.BackgroundTransparency
+			local endValue = 0
+			local tween = TweenService:Create(script.Parent, TweenInfo, {BackgroundTransparency = endValue})
+			local tween2 = TweenService:Create(script.Parent.UIFrame.TabFrames.Tab2.TabScroll, TweenInfo, {BackgroundTransparency = endValue})
+			tween:Play()
+			tween2:Play()
+		else
+			script.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0
+			script.Parent.BackgroundTransparency = 0
+		end
+	end
+	
+	function onLeave()
+		if script.Parent["MOUSETRANS?"].BorderSizePixel == 1 then
+			local startValue = script.Parent.BackgroundTransparency
+			local endValue = 0.25
+			local tween = TweenService:Create(script.Parent, TweenInfo, {BackgroundTransparency = endValue})
+			local tween2 = TweenService:Create(script.Parent.UIFrame.TabFrames.Tab2.TabScroll, TweenInfo, {BackgroundTransparency = endValue})
+			tween:Play()
+			tween2:Play()
+		else
+			script.Parent.BackgroundTransparency = 0
+			script.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0
+		end
+	end
+	
+	script.Parent.MouseEnter:Connect(onEnter)
+	script.Parent.MouseLeave:Connect(onLeave)
+end
+coroutine.wrap(IIZPUM_fake_script)()
+local function PMOOWI_fake_script() -- DragFrame.DragScript 
+	local script = Instance.new('LocalScript', DragFrame)
+
+	local UIS = game:GetService("UserInputService")
+	local draggableFrame = script.Parent
+	local IsDragging = false
+	local dragInput
+	local StartingPoint
+	local oldPos
+	local function update(input)
+		local delta = input.Position - StartingPoint
+		draggableFrame.Position = UDim2.new(oldPos.X.Scale, oldPos.X.Offset + delta.X, oldPos.Y.Scale, oldPos.Y.Offset + delta.Y)
+	end
+	draggableFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			IsDragging = true
+			StartingPoint = input.Position
+			oldPos = draggableFrame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					IsDragging = false
+				end
+			end)
+		end
+	end)
+	draggableFrame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and IsDragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(PMOOWI_fake_script)()
