@@ -710,14 +710,14 @@ local function GLJNX_fake_script() -- Ocpacity.Aniations Toggle
 	local script = Instance.new('LocalScript', Ocpacity)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.CheckFrame.Check.BackgroundColor3 == Color3.fromRGB(0, 170, 0) then
-			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
-			script.Parent.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0
-			script.Parent.Parent.Parent.Parent.Parent.UIFrame.Parent.Parent.MainFrame.BackgroundTransparency = 0
-		else
+		if script.Parent.CheckFrame.Check.BackgroundColor3 == Color3.fromRGB(170, 0, 0) then
 			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
-			script.Parent.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0.25		script.Parent.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0.25
+			script.Parent.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0.25
 			script.Parent.Parent.Parent.Parent.Parent.UIFrame.Parent.Parent.MainFrame.BackgroundTransparency = 0.25
+		else
+			script.Parent.CheckFrame.Check.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+			script.Parent.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0		script.Parent.Parent.Parent.Parent.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0.25
+			script.Parent.Parent.Parent.Parent.Parent.UIFrame.Parent.Parent.MainFrame.BackgroundTransparency = 0
 		end
 	end)
 end
