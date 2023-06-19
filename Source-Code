@@ -1015,6 +1015,8 @@ local function LRMEC_fake_script() -- MainFrame.SetUpManager
 	script.Parent.Parent.Parent.DragFrame.Position = UDim2.new(0.8,0,0.25,100)
 	script.Parent.Parent.Parent.DragFrame.Size = UDim2.new(0,546,0,83)
 	script.Parent["FASTANIMATIONS?"].BorderSizePixel = 1
+	script.Parent.Parent.MainFrame.BackgroundTransparency = 0
+	script.Parent.UIFrame.TabFrames.Tab2.TabScroll.BackgroundTransparency = 0
 end
 coroutine.wrap(LRMEC_fake_script)()
 local function LJDTCI_fake_script() -- Settings_3.SettingsScript 
